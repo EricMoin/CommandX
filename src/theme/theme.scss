@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Noto';
+  src: url('../../assets/ttfs/NotoSerifCJKsc-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto';
+  src: url('../../assets/ttfs/NotoSerifCJKsc-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DepartureMono';
+  src: url('../../assets/ttfs/DepartureMonoNerdFontMono-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+:root{
+  color: rgba(75, 75, 75, 1);
+}

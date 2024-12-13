@@ -1,10 +1,10 @@
-import './App.css';
-
+import './App.scss';
+import { IndexScreen } from './pages/index';
+import '@theme/theme.scss'
 const App = () => {
   return (
     <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
+      <IndexScreen />
     </div>
   );
 };

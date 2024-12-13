@@ -1,0 +1,91 @@
+.index-screen{
+  background: white;
+  width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .logo{
+    width: 6rem;
+    height: 6rem;
+  }
+  .scope{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //justify-content: center;
+    //height: 100%;
+
+    width: 80%;
+    .slogan{
+      width: 100%;
+      span{
+        font-size: 5rem;
+        font-family: 'DepartureMono',sans-serif;
+        font-weight: bold;
+      }
+    }
+    .input-scope{
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 2%;
+      gap: 1%;
+      .input{
+        flex: 1;
+        .prefix{
+          height: 1rem;
+        }
+      }
+    }
+  }
+  .result-list-container{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64%;
+
+    gap: 2rem;
+    .result-item-container{
+      width: 100%;
+    }
+  }
+}
+.result-item{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 1rem;
+  border: 1px solid rgba(218, 218, 218, 1);
+  padding: 1rem;
+
+  cursor: pointer;
+
+  gap: 1rem;
+  .command{
+    font-family: 'DepartureMono',sans-serif;
+    font-size: 1.6rem;
+  }
+  .description{
+    font-size: 1rem;
+    text-align: start;
+  }
+}
+.result-item:hover{
+  background: rgba(218, 218, 218, 0.2);
+  box-shadow: 0px 1px 1px 0px  rgba(218, 218, 218, 1);
+}
+.type-animation-panel{
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span{
+    font-family: 'DepartureMono',sans-serif;
+  }
+}
